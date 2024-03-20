@@ -228,7 +228,7 @@ const Layout = ({
         {footer === 3 && <FooterThree />}
         {footer === 4 && <FooterFour />}
         {footer === 5 && <FooterFive />}
-        {video ? <VideoModal /> : null}
+        {/* {video ? <VideoModal /> : null} */}
         <ScrollProgressBtn />
         <CustomCursor
           onTitleMouseEnter={handleMouseEnterTitle}

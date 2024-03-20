@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "/public/images/logo.png";
+import logo from "/public/images/logowhite.png";
 import gsap from "gsap";
 import chroma from "chroma-js";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -113,14 +113,14 @@ const FooterFive = () => {
             <div className="footer-two__left">
               <div className="logo">
                 <Link href="/">
-                  <Image src={logo} priority alt="Image" />
+                  <Image src={logo} priority alt="Image" width={200} />
                 </Link>
               </div>
               <div className="paragraph">
                 <p>
-                  Welcome to our digital agency We specialize in helping
-                  business most like yours succeed online. From website design
-                  and development.
+                  Welcome to our digital agency, where we transform businesses
+                  like yours into online success stories! Dive into our world of
+                  cutting-edge website design and development expertise.
                 </p>
               </div>
               <div className="section__content-cta">
@@ -130,7 +130,7 @@ const FooterFive = () => {
                     className="folks-text animated-text"
                     ref={animatedTextRef}
                   >
-                    info@gmail.com
+                    info@mira-dev.de
                     {animatedTextContent.split("").map((char, index) => (
                       <span
                         aria-hidden="true"
@@ -175,15 +175,15 @@ const FooterFive = () => {
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  901 N Pitt Str., Suite 170 Alexandria, USA
+                  Waitzstraße 92 24118 Kiel
                 </Link>
                 <Link href="tel:406-555-0120">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                  (406) 555-0120
+                  +49 1522 6426128
                 </Link>
                 <Link href="mailto:info@xpovio.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@xpovio.com
+                  info@mira-dev.de
                 </Link>
               </div>
             </div>
