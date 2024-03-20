@@ -15,7 +15,7 @@ import HomeTestimonialThree from "@/components/containers/home-three/HomeTestimo
 
 const Home = () => {
   return (
-    <Layout header={1} footer={5} video={true}>
+    <Layout header={1} footer={1} video={true}>
       <HomeOneBanner />
       <Agency />
       <HomeOffer />
