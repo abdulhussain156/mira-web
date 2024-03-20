@@ -1639,9 +1639,10 @@
     }
 
     .work-thumb-hover {
-      width: 600px;
-      height: 220px;
+      width: 400px;
+      height: 267px;
       position: absolute;
+      border-radius: 15px;
       top: 100%;
       inset-inline-start: 0;
       background-size: 100% 100%;

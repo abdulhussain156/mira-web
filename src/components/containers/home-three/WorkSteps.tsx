@@ -83,7 +83,7 @@ const WorkSteps = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage: "url('/images/work/web.jpeg')",
                   }}
                 ></div>
               </div>
@@ -104,7 +104,7 @@ const WorkSteps = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage: "url('/images/work/wire.jpeg')",
                   }}
                 ></div>
               </div>
@@ -125,7 +125,7 @@ const WorkSteps = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage: "url('/images/work/ui.jpeg')",
                   }}
                 ></div>
               </div>
@@ -146,7 +146,7 @@ const WorkSteps = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage: "url('/images/work/dev.jpeg')",
                   }}
                 ></div>
               </div>
