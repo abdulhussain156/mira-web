@@ -73,13 +73,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-span,
-a,
-a:hover {
-  display: inline-block;
-  color: inherit;
-}
-
 /* h1 {
   font-size: 55px;
 }
