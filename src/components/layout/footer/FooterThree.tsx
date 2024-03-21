@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import thumb from "/public/images/footer/footer-three-thumb.png";
-import logo from "/public/images/logo.png";
+import logo from "/public/images/logowhite.png";
 
 const FooterThree = () => {
   const currentYear = new Date().getFullYear();
@@ -13,7 +13,7 @@ const FooterThree = () => {
           <div className="col-12 col-lg-4">
             <div className="footer-three__single">
               <div className="footer-thumb">
-                <Image src={thumb} alt="Image" />
+                <Image src={thumb} alt="Image" width={150} />
                 <div className="footer-thumb__content">
                   <h5>head quarters, USA</h5>
                 </div>
@@ -222,14 +222,8 @@ const FooterThree = () => {
                     <div className="footer__copyright-text text-center text-lg-start">
                       <p>
                         Copyright &copy;
-                        <span id="copyYear">{currentYear}</span> Xpovio by{" "}
-                        <Link
-                          href="https://themeforest.net/user/UltraDevs"
-                          target="_blank"
-                        >
-                          UltraDevs
-                        </Link>{" "}
-                        . All Rights Reserved
+                        <span id="copyYear">{currentYear}</span>
+                        Mira All Rights Reserved.
                       </p>
                     </div>
                   </div>

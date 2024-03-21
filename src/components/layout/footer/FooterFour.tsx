@@ -83,15 +83,9 @@ const FooterFour = () => {
                   <div className="col-12 col-lg-8">
                     <div className="footer__copyright-text text-center text-lg-start">
                       <p>
-                        Copyright &copy;{" "}
-                        <span id="copyYear">{currentYear}</span> Xpovio by{" "}
-                        <Link
-                          href="https://themeforest.net/user/UltraDevs"
-                          target="_blank"
-                        >
-                          UltraDevs{" "}
-                        </Link>
-                        . All Rights Reserved
+                        Copyright &copy;
+                        <span id="copyYear">{currentYear}</span>
+                        Mira All Rights Reserved.
                       </p>
                     </div>
                   </div>

@@ -12,10 +12,11 @@ import HomeThreeServices from "@/components/containers/home-three/HomeThreeServi
 import HomeThreePortfolio from "@/components/containers/home-three/HomeThreePortfolio";
 import WorkSteps from "@/components/containers/home-three/WorkSteps";
 import HomeTestimonialThree from "@/components/containers/home-three/HomeTestimonialThree";
+import CtaTwo from "@/components/containers/service-details/CtaTwo";
 
 const Home = () => {
   return (
-    <Layout header={1} footer={1} video={true}>
+    <Layout header={1} footer={2} video={true}>
       <HomeOneBanner />
       <Agency />
       <HomeOffer />
@@ -25,6 +26,7 @@ const Home = () => {
       {/* <HomeBlog /> */}
       <HomeSponsor />
       <NextPage />
+      <CtaTwo />
     </Layout>
   );
 };

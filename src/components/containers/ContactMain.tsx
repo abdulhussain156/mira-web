@@ -17,12 +17,9 @@ const ContactMain = () => {
                 <Image src={phone} alt="Image" />
               </div>
               <div className="content">
-                <h4>Phone & Fax</h4>
+                <h4>Phone</h4>
                 <p>
-                  <Link href="tel:197-90-56-780">Mobile : +197-90-56-780</Link>
-                </p>
-                <p>
-                  <Link href="tel:197-90-56-780">Fax : +44-208-1234567</Link>
+                  <Link href="tel:197-90-56-780">+49 1522 6426128</Link>
                 </p>
               </div>
             </div>
@@ -35,14 +32,7 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Mail Address</h4>
                 <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    Info.company@gmail.com
-                  </Link>
-                </p>
-                <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    Info.company@yahoo.com
-                  </Link>
+                  <Link href="mailto:info@mira-dev.de">info@mira-dev.de</Link>
                 </p>
               </div>
             </div>
@@ -56,10 +46,10 @@ const ContactMain = () => {
                 <h4>Our Location</h4>
                 <p>
                   <Link
-                    href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
+                    href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d74437.76291332857!2d10.128307!3d54.336125!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b2566d1d986db1%3A0x510417e2c6af3140!2sWaitzstra%C3%9Fe%2092%2C%2024118%20Kiel-Ravensberg%20-%20Brunswik%20-%20D%C3%BCsternbrook%2C%20Germany!5e0!3m2!1sen!2sus!4v1708947498219!5m2!1sen!2sus"
                     target="_blank"
                   >
-                    85 Ketch Harbour RoadBensalem, PA 19020
+                    Waitzstraße 92 24118 Kiel
                   </Link>
                 </p>
               </div>
@@ -85,7 +75,7 @@ const ContactMain = () => {
                 <div className="col-12 col-lg-6">
                   <div className="contact__map fade-top">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20342.411046372905!2d-74.16638039276373!3d40.719832743885284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1649562691355!5m2!1sen!2sbd"
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d74437.76291332857!2d10.128307!3d54.336125!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b2566d1d986db1%3A0x510417e2c6af3140!2sWaitzstra%C3%9Fe%2092%2C%2024118%20Kiel-Ravensberg%20-%20Brunswik%20-%20D%C3%BCsternbrook%2C%20Germany!5e0!3m2!1sen!2sus!4v1708947498219!5m2!1sen!2sus"
                       width="100"
                       height="800"
                       style={{ border: "0px" }}

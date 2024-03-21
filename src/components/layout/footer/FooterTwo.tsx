@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "/public/images/logo.png";
+import logo from "/public/images/logowhite.png";
 import gsap from "gsap";
 import chroma from "chroma-js";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -113,7 +113,7 @@ const FooterTwo = () => {
             <div className="footer-two__left">
               <div className="logo">
                 <Link href="/">
-                  <Image src={logo} priority alt="Image" />
+                  <Image src={logo} priority alt="Image" width={150} />
                 </Link>
               </div>
               <div className="paragraph">
@@ -126,11 +126,11 @@ const FooterTwo = () => {
               <div className="section__content-cta">
                 <h2>
                   <Link
-                    href="mailto:info@gmail.com"
+                    href="mailto:info@mira-dev.de"
                     className="folks-text animated-text"
                     ref={animatedTextRef}
                   >
-                    info@gmail.com
+                    info@mira-dev.de
                     {animatedTextContent.split("").map((char, index) => (
                       <span
                         aria-hidden="true"
@@ -175,15 +175,15 @@ const FooterTwo = () => {
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  901 N Pitt Str., Suite 170 Alexandria, USA
+                  Waitzstraße 92 24118 Kiel
                 </Link>
-                <Link href="tel:406-555-0120">
+                <Link href="tel:+49 1522 6426128">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                  (406) 555-0120
+                  +49 1522 6426128
                 </Link>
-                <Link href="mailto:info@xpovio.com">
+                <Link href="mailto:info@mira-dev.de">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@xpovio.com
+                  info@mira-dev.de
                 </Link>
               </div>
             </div>
@@ -197,15 +197,8 @@ const FooterTwo = () => {
               <div className="footer__copyright-text text-center text-xl-start">
                 <p>
                   Copyright &copy;
-                  <span id="copyYear">{currentYear}</span> Xpovio by{" "}
-                  <Link
-                    href="https://themeforest.net/user/UltraDevs"
-                    target="_blank"
-                  >
-                    {" "}
-                    UltraDevs
-                  </Link>{" "}
-                  . All Rights Reserved
+                  <span id="copyYear">{currentYear}</span>
+                  Mira All Rights Reserved.
                 </p>
               </div>
             </div>
@@ -220,9 +213,7 @@ const FooterTwo = () => {
                 <li>
                   <Link href="our-services">Services</Link>
                 </li>
-                <li>
-                  <Link href="blog">Blog</Link>
-                </li>
+
                 <li>
                   <Link href="contact-us">Contact</Link>
                 </li>

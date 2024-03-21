@@ -197,15 +197,8 @@ const FooterFive = () => {
               <div className="footer__copyright-text text-center text-xl-start">
                 <p>
                   Copyright &copy;
-                  <span id="copyYear">{currentYear}</span> Xpovio by{" "}
-                  <Link
-                    href="https://themeforest.net/user/UltraDevs"
-                    target="_blank"
-                  >
-                    {" "}
-                    UltraDevs
-                  </Link>{" "}
-                  . All Rights Reserved
+                  <span id="copyYear">{currentYear}</span>
+                  Mira All Rights Reserved.
                 </p>
               </div>
             </div>
@@ -220,9 +213,7 @@ const FooterFive = () => {
                 <li>
                   <Link href="our-services">Services</Link>
                 </li>
-                <li>
-                  <Link href="blog">Blog</Link>
-                </li>
+
                 <li>
                   <Link href="contact-us">Contact</Link>
                 </li>

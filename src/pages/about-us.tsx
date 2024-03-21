@@ -12,7 +12,7 @@ import HomeSponsor from "@/components/containers/home/HomeSponsor";
 
 const AboutUs = () => {
   return (
-    <Layout header={1} footer={5} video={0}>
+    <Layout header={1} footer={2} video={0}>
       <HomeTwoBanner />
       {/* <HomeTwoModal /> */}
       <Agency />

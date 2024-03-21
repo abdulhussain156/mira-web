@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-// import thumb from "/public/images/error-thumb.png";
+import thumb from "/public/images/error-thumb.png";
 
 const ErrorMain = () => {
   return (
@@ -12,7 +12,7 @@ const ErrorMain = () => {
             <div className="error__content text-center fade-top">
               <span className="secondary-text">ERROR</span>
               <div className="thumb">
-                <Image src="/public/images/error-thumb.png" alt="Image" />
+                <Image src={thumb} alt="Image" />
               </div>
               <h2>page not found</h2>
               <div className="section__content-cta">

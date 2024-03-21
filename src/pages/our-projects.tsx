@@ -8,7 +8,7 @@ import WorkSteps from "@/components/containers/home-three/WorkSteps";
 
 const OurProjects = () => {
   return (
-    <Layout header={1} footer={5} video={0}>
+    <Layout header={1} footer={2} video={0}>
       <CmnBanner title="Our Projects" navigation="Our Projects" />
       <ProjectMain />
       <WorkSteps />
