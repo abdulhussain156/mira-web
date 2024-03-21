@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": { "first": "Akona", "second": "Sleep U8" },
+    "image": "/project/sleepApp2.jpg",
+    "sub": "Design"
+  },
+  {
+    "id": 2,
+    "title": { "first": "Wemalo", "second": "Handheld" },
+    "image": "/project/wemalo.jpg",
+    "sub": "Design"
+  },
+  {
+    "id": 3,
+    "title": { "first": "MI Parking", "second": "App" },
+    "image": "/project/parking.jpg",
+    "sub": "Design"
+  },
+  {
+    "id": 4,
+    "title": { "first": "Davinci", "second": "App" },
+    "image": "/project/davinci.jpg",
+    "sub": "Design"
+  }
+]

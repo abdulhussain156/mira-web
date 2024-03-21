@@ -19,6 +19,8 @@ import ScrollProgressBtn from "./ScrollProgressBtn";
 import CustomCursor from "./CustomCursor";
 import SplitType from "split-type";
 
+import Preloader from "./Preloader";
+
 type LayoutProps = {
   children: React.ReactNode;
   handleMouseEnterTitle?: any;
@@ -142,6 +144,8 @@ const Layout = ({
     const myText = new SplitType(".title-anim");
     const titleAnims = document.querySelectorAll(".title-anim");
 
+    const preloader = document.querySelector(".preloader");
+
     titleAnims.forEach((titleAnim) => {
       const charElements = titleAnim.querySelectorAll(".char");
 
@@ -157,7 +161,7 @@ const Layout = ({
           },
         });
 
-        const charDelay = index * 0.03;
+        const charDelay = index * 0.03 + 1.3; // Adding 1.5 seconds delay after preloader animation
 
         tl2.from(char, {
           duration: 0.8,
@@ -169,8 +173,39 @@ const Layout = ({
     });
   }, []);
 
+  useEffect(() => {
+    // preloader
+    if (typeof window !== "undefined") {
+      document.querySelector("body")?.classList.remove("onovo--noscroll"); // Use optional chaining here
+      const loader = document.getElementsByClassName("preloader");
+
+      if (loader[0]) {
+        setTimeout(() => {
+          loader[0].classList.add("closed");
+          document
+            .querySelector("body")
+            ?.classList.add("animated--swiper--active"); // Use optional chaining here
+          const preloaderSpinner = loader[0].querySelector(
+            ".preloader__spinner"
+          );
+          if (preloaderSpinner) {
+            preloaderSpinner.setAttribute("style", "opacity: 0"); // Set opacity using setAttribute
+          }
+        }, 500);
+        setTimeout(() => {
+          loader[0].classList.add("loaded");
+          document.querySelector("body")?.classList.add("animated--active"); // Use optional chaining here
+        }, 1500);
+      } else {
+        // Handle the case when loader[0] is not found
+        console.log("Loader not found");
+      }
+    }
+  }, []);
+
   return (
     <Fragment>
+      <Preloader />
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -228,6 +263,7 @@ const Layout = ({
         {footer === 3 && <FooterThree />}
         {footer === 4 && <FooterFour />}
         {footer === 5 && <FooterFive />}
+        {footer === 77 && null}
         {/* {video ? <VideoModal /> : null} */}
         <ScrollProgressBtn />
         <CustomCursor

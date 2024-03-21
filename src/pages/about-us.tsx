@@ -7,16 +7,18 @@ import TeamMembers from "@/components/containers/TeamMembers";
 import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
 import AboutSponsor from "@/components/containers/home-three/AboutSponsor";
 import AboutCta from "@/components/containers/home-two/AboutCta";
+import HomeTwoBanner from "@/components/layout/banner/HomeTwoBanner";
+import HomeSponsor from "@/components/containers/home/HomeSponsor";
 
 const AboutUs = () => {
   return (
     <Layout header={1} footer={5} video={0}>
-      <CmnBanner title="About Us" navigation="About Us" />
+      <HomeTwoBanner />
       {/* <HomeTwoModal /> */}
       <Agency />
       <TeamMembers />
       <HomeTestimonial />
-      <AboutSponsor />
+      <HomeSponsor />
       <AboutCta />
     </Layout>
   );

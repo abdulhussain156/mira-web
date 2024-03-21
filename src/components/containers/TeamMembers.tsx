@@ -4,13 +4,9 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "/public/images/teams/one.png";
-import two from "/public/images/teams/two.png";
-import three from "/public/images/teams/three.png";
-import four from "/public/images/teams/four.png";
-import five from "/public/images/teams/five.png";
-import six from "/public/images/teams/six.png";
-import seven from "/public/images/teams/seven.png";
+import one from "/public/images/team/RazaAbbas.jpeg";
+import two from "/public/images/team/AbbasMadad.jpeg";
+import three from "/public/images/team/IrtazaMadad.jpg";
 
 const TeamMembers = () => {
   return (
@@ -81,7 +77,7 @@ const TeamMembers = () => {
                 <div className="team-wrap">
                   <div className="thumb">
                     <Link href="team-single">
-                      <Image src={one} alt="Image" />
+                      <Image src={one} alt="Image" width={450} />
                     </Link>
                     <div
                       className="thumb__content"
@@ -89,35 +85,29 @@ const TeamMembers = () => {
                     >
                       <div className="info">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          He is the founder and CEO of Mira Dev, with over a
+                          decade of experience in both software and hardware
+                          development.
                         </p>
                       </div>
                       <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
+                        <Link href="team-single">Raza Abbas</Link>
                       </h4>
-                      <p>Senior engineer</p>
+                      <p>CEO</p>
                       <div className="social-alt">
                         <Link
-                          href="https://www.facebook.com/"
-                          target="_blank"
-                          aria-label="share us on facebook"
-                        >
-                          <i className="fa-brands fa-facebook-f"></i>
-                        </Link>
-                        <Link
-                          href="https://www.twitter.com/"
-                          target="_blank"
-                          aria-label="share us on twitter"
-                        >
-                          <i className="fa-brands fa-twitter"></i>
-                        </Link>
-                        <Link
-                          href="https://www.pinterest.com/"
+                          href="www.linkedin.com/in/raza-abbas-4576a0147/"
                           target="_blank"
                           aria-label="share us on pinterest"
                         >
                           <i className="fa-brands fa-linkedin-in"></i>
+                        </Link>
+                        <Link
+                          href="mailto:raza.abbas@mira-dev.de"
+                          target="_blank"
+                          aria-label="share us on instagram"
+                        >
+                          <i className="fa fa-envelope"></i>
                         </Link>
                       </div>
                     </div>
@@ -125,76 +115,34 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">Raza Abbas</Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p>CEO</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
-                      </p>
-                      <div className="skill-wrap">
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Wireframe</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="75%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Visual Design</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="90%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        He is the founder and CEO of Mira Dev, with over a
+                        decade of experience in both software and hardware
+                        development. His vision revolves around bridging the gap
+                        between humanity and the tech industry, a mission he
+                        diligently pursues each day.
                       </p>
                     </div>
                     <div className="social">
                       <Link
-                        href="https://www.facebook.com/"
-                        target="_blank"
-                        aria-label="share us on facebook"
-                      >
-                        <i className="fa-brands fa-facebook-f"></i>
-                      </Link>
-                      <Link
-                        href="https://www.twitter.com/"
-                        target="_blank"
-                        aria-label="share us on twitter"
-                      >
-                        <i className="fa-brands fa-twitter"></i>
-                      </Link>
-                      <Link
-                        href="https://www.pinterest.com/"
+                        href="www.linkedin.com/in/raza-abbas-4576a0147/"
                         target="_blank"
                         aria-label="share us on pinterest"
                       >
                         <i className="fa-brands fa-linkedin-in"></i>
                       </Link>
                       <Link
-                        href="https://www.instagram.com/"
+                        href="mailto:raza.abbas@mira-dev.de"
                         target="_blank"
                         aria-label="share us on instagram"
                       >
-                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa fa-envelope"></i>
                       </Link>
                     </div>
                   </div>
@@ -206,7 +154,7 @@ const TeamMembers = () => {
                 <div className="team-wrap">
                   <div className="thumb">
                     <Link href="team-single">
-                      <Image src={two} alt="Image" />
+                      <Image src={two} alt="Image" width={450} />
                     </Link>
                     <div
                       className="thumb__content"
@@ -214,35 +162,28 @@ const TeamMembers = () => {
                     >
                       <div className="info">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          Abbas leads the development of ERP systems, bringing
+                          his expertise in ERP software to the forefront.
                         </p>
                       </div>
                       <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
+                        <Link href="team-single">Abbas Madad</Link>
                       </h4>
-                      <p>Senior engineer</p>
+                      <p>SAP B1 (HOD)</p>
                       <div className="social-alt">
                         <Link
-                          href="https://www.facebook.com/"
-                          target="_blank"
-                          aria-label="share us on facebook"
-                        >
-                          <i className="fa-brands fa-facebook-f"></i>
-                        </Link>
-                        <Link
-                          href="https://www.twitter.com/"
-                          target="_blank"
-                          aria-label="share us on twitter"
-                        >
-                          <i className="fa-brands fa-twitter"></i>
-                        </Link>
-                        <Link
-                          href="https://www.pinterest.com/"
+                          href="www.linkedin.com/in/abbas-naqvi-2bb470101/"
                           target="_blank"
                           aria-label="share us on pinterest"
                         >
                           <i className="fa-brands fa-linkedin-in"></i>
+                        </Link>
+                        <Link
+                          href="mailto:abbas.madad@mira-dev.de"
+                          target="_blank"
+                          aria-label="share us on instagram"
+                        >
+                          <i className="fa fa-enveloper"></i>
                         </Link>
                       </div>
                     </div>
@@ -250,76 +191,33 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">Abbas Madad</Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p>SAP B1 (HOD)</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
-                      </p>
-                      <div className="skill-wrap">
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Wireframe</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="75%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Visual Design</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="90%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        Abbas leads the development of ERP systems, bringing his
+                        expertise in ERP software to the forefront. With vast
+                        experience in SAPB1, he has successfully completed
+                        numerous projects worldwide.
                       </p>
                     </div>
                     <div className="social">
                       <Link
-                        href="https://www.facebook.com/"
-                        target="_blank"
-                        aria-label="share us on facebook"
-                      >
-                        <i className="fa-brands fa-facebook-f"></i>
-                      </Link>
-                      <Link
-                        href="https://www.twitter.com/"
-                        target="_blank"
-                        aria-label="share us on twitter"
-                      >
-                        <i className="fa-brands fa-twitter"></i>
-                      </Link>
-                      <Link
-                        href="https://www.pinterest.com/"
+                        href="www.linkedin.com/in/abbas-naqvi-2bb470101/"
                         target="_blank"
                         aria-label="share us on pinterest"
                       >
                         <i className="fa-brands fa-linkedin-in"></i>
                       </Link>
                       <Link
-                        href="https://www.instagram.com/"
+                        href="mailto:abbas.madad@mira-dev.de"
                         target="_blank"
                         aria-label="share us on instagram"
                       >
-                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa fa-enveloper"></i>
                       </Link>
                     </div>
                   </div>
@@ -331,7 +229,7 @@ const TeamMembers = () => {
                 <div className="team-wrap">
                   <div className="thumb">
                     <Link href="team-single">
-                      <Image src={three} alt="Image" />
+                      <Image src={three} alt="Image" width={450} />
                     </Link>
                     <div
                       className="thumb__content"
@@ -339,35 +237,30 @@ const TeamMembers = () => {
                     >
                       <div className="info">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          Irtaza is a Technical Project Manager specializing in
+                          software solutions and IoT development, adept at
+                          navigating the complexities of networks and emerging
+                          technologies.
                         </p>
                       </div>
                       <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
+                        <Link href="team-single">Irtaza Madad</Link>
                       </h4>
-                      <p>Senior engineer</p>
+                      <p>Technical Project Manager</p>
                       <div className="social-alt">
                         <Link
-                          href="https://www.facebook.com/"
-                          target="_blank"
-                          aria-label="share us on facebook"
-                        >
-                          <i className="fa-brands fa-facebook-f"></i>
-                        </Link>
-                        <Link
-                          href="https://www.twitter.com/"
-                          target="_blank"
-                          aria-label="share us on twitter"
-                        >
-                          <i className="fa-brands fa-twitter"></i>
-                        </Link>
-                        <Link
-                          href="https://www.pinterest.com/"
+                          href="www.linkedin.com/in/irtaza-madad-naqvi-798b5715a/"
                           target="_blank"
                           aria-label="share us on pinterest"
                         >
                           <i className="fa-brands fa-linkedin-in"></i>
+                        </Link>
+                        <Link
+                          href="mailto:irtaza.madad@mira-dev.de"
+                          target="_blank"
+                          aria-label="share us on instagram"
+                        >
+                          <i className="fa fa-enveloper"></i>
                         </Link>
                       </div>
                     </div>
@@ -375,76 +268,34 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">Irtaza Madad</Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p>Technical Project Manager</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
-                      </p>
-                      <div className="skill-wrap">
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Wireframe</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="75%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Visual Design</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="90%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        Irtaza is a Technical Project Manager specializing in
+                        software solutions and IoT development, adept at
+                        navigating the complexities of networks and emerging
+                        technologies. With 4 to 5 years of experience, he brings
+                        a wealth of expertise to the table.
                       </p>
                     </div>
                     <div className="social">
                       <Link
-                        href="https://www.facebook.com/"
-                        target="_blank"
-                        aria-label="share us on facebook"
-                      >
-                        <i className="fa-brands fa-facebook-f"></i>
-                      </Link>
-                      <Link
-                        href="https://www.twitter.com/"
-                        target="_blank"
-                        aria-label="share us on twitter"
-                      >
-                        <i className="fa-brands fa-twitter"></i>
-                      </Link>
-                      <Link
-                        href="https://www.pinterest.com/"
+                        href="www.linkedin.com/in/irtaza-madad-naqvi-798b5715a/"
                         target="_blank"
                         aria-label="share us on pinterest"
                       >
                         <i className="fa-brands fa-linkedin-in"></i>
                       </Link>
                       <Link
-                        href="https://www.instagram.com/"
+                        href="mailto:irtaza.madad@mira-dev.de"
                         target="_blank"
                         aria-label="share us on instagram"
                       >
-                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa fa-enveloper"></i>
                       </Link>
                     </div>
                   </div>
@@ -456,7 +307,7 @@ const TeamMembers = () => {
                 <div className="team-wrap">
                   <div className="thumb">
                     <Link href="team-single">
-                      <Image src={four} alt="Image" />
+                      <Image src={one} alt="Image" width={450} />
                     </Link>
                     <div
                       className="thumb__content"
@@ -464,35 +315,29 @@ const TeamMembers = () => {
                     >
                       <div className="info">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          He is the founder and CEO of Mira Dev, with over a
+                          decade of experience in both software and hardware
+                          development.
                         </p>
                       </div>
                       <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
+                        <Link href="team-single">Raza Abbas</Link>
                       </h4>
-                      <p>Senior engineer</p>
+                      <p>CEO</p>
                       <div className="social-alt">
                         <Link
-                          href="https://www.facebook.com/"
-                          target="_blank"
-                          aria-label="share us on facebook"
-                        >
-                          <i className="fa-brands fa-facebook-f"></i>
-                        </Link>
-                        <Link
-                          href="https://www.twitter.com/"
-                          target="_blank"
-                          aria-label="share us on twitter"
-                        >
-                          <i className="fa-brands fa-twitter"></i>
-                        </Link>
-                        <Link
-                          href="https://www.pinterest.com/"
+                          href="www.linkedin.com/in/raza-abbas-4576a0147/"
                           target="_blank"
                           aria-label="share us on pinterest"
                         >
                           <i className="fa-brands fa-linkedin-in"></i>
+                        </Link>
+                        <Link
+                          href="mailto:raza.abbas@mira-dev.de"
+                          target="_blank"
+                          aria-label="share us on instagram"
+                        >
+                          <i className="fa fa-envelope"></i>
                         </Link>
                       </div>
                     </div>
@@ -500,76 +345,34 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">Raza Abbas</Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p>CEO</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
-                      </p>
-                      <div className="skill-wrap">
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Wireframe</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="75%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Visual Design</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="90%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        He is the founder and CEO of Mira Dev, with over a
+                        decade of experience in both software and hardware
+                        development. His vision revolves around bridging the gap
+                        between humanity and the tech industry, a mission he
+                        diligently pursues each day.
                       </p>
                     </div>
                     <div className="social">
                       <Link
-                        href="https://www.facebook.com/"
-                        target="_blank"
-                        aria-label="share us on facebook"
-                      >
-                        <i className="fa-brands fa-facebook-f"></i>
-                      </Link>
-                      <Link
-                        href="https://www.twitter.com/"
-                        target="_blank"
-                        aria-label="share us on twitter"
-                      >
-                        <i className="fa-brands fa-twitter"></i>
-                      </Link>
-                      <Link
-                        href="https://www.pinterest.com/"
+                        href="www.linkedin.com/in/raza-abbas-4576a0147/"
                         target="_blank"
                         aria-label="share us on pinterest"
                       >
                         <i className="fa-brands fa-linkedin-in"></i>
                       </Link>
                       <Link
-                        href="https://www.instagram.com/"
+                        href="mailto:raza.abbas@mira-dev.de"
                         target="_blank"
                         aria-label="share us on instagram"
                       >
-                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa fa-envelope"></i>
                       </Link>
                     </div>
                   </div>
@@ -581,7 +384,7 @@ const TeamMembers = () => {
                 <div className="team-wrap">
                   <div className="thumb">
                     <Link href="team-single">
-                      <Image src={five} alt="Image" />
+                      <Image src={two} alt="Image" width={450} />
                     </Link>
                     <div
                       className="thumb__content"
@@ -589,35 +392,28 @@ const TeamMembers = () => {
                     >
                       <div className="info">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          Abbas leads the development of ERP systems, bringing
+                          his expertise in ERP software to the forefront.
                         </p>
                       </div>
                       <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
+                        <Link href="team-single">Abbas Madad</Link>
                       </h4>
-                      <p>Senior engineer</p>
+                      <p>SAP B1 (HOD)</p>
                       <div className="social-alt">
                         <Link
-                          href="https://www.facebook.com/"
-                          target="_blank"
-                          aria-label="share us on facebook"
-                        >
-                          <i className="fa-brands fa-facebook-f"></i>
-                        </Link>
-                        <Link
-                          href="https://www.twitter.com/"
-                          target="_blank"
-                          aria-label="share us on twitter"
-                        >
-                          <i className="fa-brands fa-twitter"></i>
-                        </Link>
-                        <Link
-                          href="https://www.pinterest.com/"
+                          href="www.linkedin.com/in/abbas-naqvi-2bb470101/"
                           target="_blank"
                           aria-label="share us on pinterest"
                         >
                           <i className="fa-brands fa-linkedin-in"></i>
+                        </Link>
+                        <Link
+                          href="mailto:abbas.madad@mira-dev.de"
+                          target="_blank"
+                          aria-label="share us on instagram"
+                        >
+                          <i className="fa fa-enveloper"></i>
                         </Link>
                       </div>
                     </div>
@@ -625,76 +421,33 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">Abbas Madad</Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p>SAP B1 (HOD)</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
-                      </p>
-                      <div className="skill-wrap">
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Wireframe</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="75%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Visual Design</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="90%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        Abbas leads the development of ERP systems, bringing his
+                        expertise in ERP software to the forefront. With vast
+                        experience in SAPB1, he has successfully completed
+                        numerous projects worldwide.
                       </p>
                     </div>
                     <div className="social">
                       <Link
-                        href="https://www.facebook.com/"
-                        target="_blank"
-                        aria-label="share us on facebook"
-                      >
-                        <i className="fa-brands fa-facebook-f"></i>
-                      </Link>
-                      <Link
-                        href="https://www.twitter.com/"
-                        target="_blank"
-                        aria-label="share us on twitter"
-                      >
-                        <i className="fa-brands fa-twitter"></i>
-                      </Link>
-                      <Link
-                        href="https://www.pinterest.com/"
+                        href="www.linkedin.com/in/abbas-naqvi-2bb470101/"
                         target="_blank"
                         aria-label="share us on pinterest"
                       >
                         <i className="fa-brands fa-linkedin-in"></i>
                       </Link>
                       <Link
-                        href="https://www.instagram.com/"
+                        href="mailto:abbas.madad@mira-dev.de"
                         target="_blank"
                         aria-label="share us on instagram"
                       >
-                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa fa-enveloper"></i>
                       </Link>
                     </div>
                   </div>
@@ -706,7 +459,7 @@ const TeamMembers = () => {
                 <div className="team-wrap">
                   <div className="thumb">
                     <Link href="team-single">
-                      <Image src={six} alt="Image" />
+                      <Image src={three} alt="Image" width={450} />
                     </Link>
                     <div
                       className="thumb__content"
@@ -714,35 +467,30 @@ const TeamMembers = () => {
                     >
                       <div className="info">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          Irtaza is a Technical Project Manager specializing in
+                          software solutions and IoT development, adept at
+                          navigating the complexities of networks and emerging
+                          technologies.
                         </p>
                       </div>
                       <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
+                        <Link href="team-single">Irtaza Madad</Link>
                       </h4>
-                      <p>Senior engineer</p>
+                      <p>Technical Project Manager</p>
                       <div className="social-alt">
                         <Link
-                          href="https://www.facebook.com/"
-                          target="_blank"
-                          aria-label="share us on facebook"
-                        >
-                          <i className="fa-brands fa-facebook-f"></i>
-                        </Link>
-                        <Link
-                          href="https://www.twitter.com/"
-                          target="_blank"
-                          aria-label="share us on twitter"
-                        >
-                          <i className="fa-brands fa-twitter"></i>
-                        </Link>
-                        <Link
-                          href="https://www.pinterest.com/"
+                          href="www.linkedin.com/in/irtaza-madad-naqvi-798b5715a/"
                           target="_blank"
                           aria-label="share us on pinterest"
                         >
                           <i className="fa-brands fa-linkedin-in"></i>
+                        </Link>
+                        <Link
+                          href="mailto:irtaza.madad@mira-dev.de"
+                          target="_blank"
+                          aria-label="share us on instagram"
+                        >
+                          <i className="fa fa-enveloper"></i>
                         </Link>
                       </div>
                     </div>
@@ -750,201 +498,34 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">Irtaza Madad</Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p>Technical Project Manager</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
-                      </p>
-                      <div className="skill-wrap">
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Wireframe</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="75%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Visual Design</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="90%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        Irtaza is a Technical Project Manager specializing in
+                        software solutions and IoT development, adept at
+                        navigating the complexities of networks and emerging
+                        technologies. With 4 to 5 years of experience, he brings
+                        a wealth of expertise to the table.
                       </p>
                     </div>
                     <div className="social">
                       <Link
-                        href="https://www.facebook.com/"
-                        target="_blank"
-                        aria-label="share us on facebook"
-                      >
-                        <i className="fa-brands fa-facebook-f"></i>
-                      </Link>
-                      <Link
-                        href="https://www.twitter.com/"
-                        target="_blank"
-                        aria-label="share us on twitter"
-                      >
-                        <i className="fa-brands fa-twitter"></i>
-                      </Link>
-                      <Link
-                        href="https://www.pinterest.com/"
+                        href="www.linkedin.com/in/irtaza-madad-naqvi-798b5715a/"
                         target="_blank"
                         aria-label="share us on pinterest"
                       >
                         <i className="fa-brands fa-linkedin-in"></i>
                       </Link>
                       <Link
-                        href="https://www.instagram.com/"
+                        href="mailto:irtaza.madad@mira-dev.de"
                         target="_blank"
                         aria-label="share us on instagram"
                       >
-                        <i className="fa-brands fa-instagram"></i>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="team-s__slider-single">
-                <div className="team-wrap">
-                  <div className="thumb">
-                    <Link href="team-single">
-                      <Image src={seven} alt="Image" />
-                    </Link>
-                    <div
-                      className="thumb__content"
-                      style={{ backgroundImage: "url('/images/teams/bg.png')" }}
-                    >
-                      <div className="info">
-                        <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
-                        </p>
-                      </div>
-                      <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
-                      </h4>
-                      <p>Senior engineer</p>
-                      <div className="social-alt">
-                        <Link
-                          href="https://www.facebook.com/"
-                          target="_blank"
-                          aria-label="share us on facebook"
-                        >
-                          <i className="fa-brands fa-facebook-f"></i>
-                        </Link>
-                        <Link
-                          href="https://www.twitter.com/"
-                          target="_blank"
-                          aria-label="share us on twitter"
-                        >
-                          <i className="fa-brands fa-twitter"></i>
-                        </Link>
-                        <Link
-                          href="https://www.pinterest.com/"
-                          target="_blank"
-                          aria-label="share us on pinterest"
-                        >
-                          <i className="fa-brands fa-linkedin-in"></i>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="content">
-                    <div className="intro">
-                      <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
-                      </h5>
-                      <p>Sr. Product Designer</p>
-                    </div>
-                    <hr />
-                    <div className="inner">
-                      <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
-                      </p>
-                      <div className="skill-wrap">
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Wireframe</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="75%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="skill-bar-single">
-                          <div className="skill-bar-title">
-                            <p>Visual Design</p>
-                          </div>
-                          <div className="skill-bar-wrapper" data-percent="90%">
-                            <div className="skill-bar">
-                              <div className="skill-bar-percent">
-                                <span className="percent-value"></span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
-                      </p>
-                    </div>
-                    <div className="social">
-                      <Link
-                        href="https://www.facebook.com/"
-                        target="_blank"
-                        aria-label="share us on facebook"
-                      >
-                        <i className="fa-brands fa-facebook-f"></i>
-                      </Link>
-                      <Link
-                        href="https://www.twitter.com/"
-                        target="_blank"
-                        aria-label="share us on twitter"
-                      >
-                        <i className="fa-brands fa-twitter"></i>
-                      </Link>
-                      <Link
-                        href="https://www.pinterest.com/"
-                        target="_blank"
-                        aria-label="share us on pinterest"
-                      >
-                        <i className="fa-brands fa-linkedin-in"></i>
-                      </Link>
-                      <Link
-                        href="https://www.instagram.com/"
-                        target="_blank"
-                        aria-label="share us on instagram"
-                      >
-                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa fa-enveloper"></i>
                       </Link>
                     </div>
                   </div>

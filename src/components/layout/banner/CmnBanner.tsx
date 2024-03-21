@@ -43,9 +43,12 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
             <div className="col-12 col-lg-7 col-xl-5">
               <div className="text-center text-lg-start">
                 <p className="primary-text">
-                  We&apos;re an UK-based top-notch design agency committed to
-                  partnering with good companies and hiring the right people for
-                  the right roles.
+                  We are a team of experienced embedded software developers
+                  committed to developing reliable and high-performance software
+                  for embedded systems. We have a proven track record of
+                  developing software for a variety of industries, including
+                  automotive, medical, industrial automation and consumer
+                  electronics.
                 </p>
               </div>
             </div>

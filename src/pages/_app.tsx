@@ -12,6 +12,7 @@ import "/public/icons/glyphter/css/xpovio.css";
 
 // main scss
 import "@/styles/main.scss";
+import "@/styles/dark.css";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

@@ -140,7 +140,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     </li>
                   </ul>
                 </li>
-                <li className="navbar__item navbar__item--has-children nav-fade">
+                {/* <li className="navbar__item navbar__item--has-children nav-fade">
                   <button
                     aria-label="dropdown menu"
                     className={`navbar__dropdown-label ${isSubMenuButton(
@@ -193,6 +193,12 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                       <Link href="contact-us">Contact Us</Link>
                     </li>
                   </ul>
+                </li> */}
+                <li className="navbar__item navbar__item--has-children nav-fade">
+                  <Link href="showcase">showcase</Link>
+                </li>
+                <li className="navbar__item navbar__item--has-children nav-fade">
+                  <Link href="contact-us">contact</Link>
                 </li>
                 {/* <li className="navbar__item navbar__item--has-children nav-fade">
                   <button
